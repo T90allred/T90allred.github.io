@@ -1,11 +1,11 @@
 body{
-    background: url(assets/personalSiteImage.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-    font-family: sans-serif;
+  background: url(assets/personalSiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: sans-serif;
 }
 
 h1{
