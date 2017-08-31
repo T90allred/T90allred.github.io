@@ -1,5 +1,10 @@
 body{
-    background-color: tomato;
+    background: url(assets/personalSiteImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;
     font-family: sans-serif;
 }
 
@@ -8,7 +13,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: tomato;
 }
 
 a{
@@ -18,5 +23,5 @@ a{
   font-family: serif;
 }
 a:hover{
-  color: #fff;
+  color: mediumaquamarine;
 }
