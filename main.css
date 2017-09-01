@@ -1,19 +1,25 @@
 body{
-  background: url(assets/personalSiteBackground.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
   font-family: sans-serif;
+  margin: 0;
+  /*background-color: dodgerblue;*/
+}
+
+h1, h2, p{
+  color: #fff;
 }
 
 h1{
-    color: mediumaquamarine;
+  font-size: 50px;
 }
 
-h2{
-    color: tomato;
+p{
+  font-size: 25px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+hr{
+  margin-bottom: 15px;
 }
 
 a{
@@ -24,4 +30,21 @@ a{
 }
 a:hover{
   color: mediumaquamarine;
+}
+
+.about_me{
+  background-color: dimgrey;
+  margin: auto;
+  padding-top: 100px;
+  width: 85%;
+}
+
+.container{
+  background-color: dimgrey;
+  height: 100vh;
+  width: 100%;
+}
+
+#name{
+  margin-bottom: 15px;
 }
