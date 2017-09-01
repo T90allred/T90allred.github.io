@@ -33,18 +33,38 @@ a:hover{
 }
 
 .about_me{
-  background-color: dimgrey;
+  background-color: royalblue;
   margin: auto;
   padding-top: 100px;
   width: 85%;
 }
 
 .container{
-  background-color: dimgrey;
+  background-color: royalblue;
   height: 100vh;
   width: 100%;
 }
 
 #name{
   margin-bottom: 15px;
+  font-family: serif;
+}
+
+.hint{
+  margin: auto;
+  margin-top: -50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: orange;
+  transition: all 0.5s ease-out;
+}
+
+.hint:hover{
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.scroll{
+  transition: all 0.5s ease-out;
 }
