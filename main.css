@@ -51,7 +51,12 @@ a:hover{
 }
 
 .arrow{
-  bottom: 0;
+  animation-duration: .35s;
+  animation-name: moving;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  left: 50vw;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -59,4 +64,13 @@ a:hover{
 
 .arrow:hover{
   cursor: pointer;
+}
+
+@keyframes moving {
+    from {
+        bottom: 3%;
+    }
+    to {
+        bottom: 4%;
+    }
 }
