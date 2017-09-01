@@ -50,25 +50,13 @@ a:hover{
   font-family: serif;
 }
 
-.hint{
-  margin: auto;
-  margin-top: -50px;
+.arrow{
+  bottom: 0;
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: orange;
-  transition: all 0.5s ease-out;
 }
 
-.hint:hover{
+.arrow:hover{
   cursor: pointer;
-  background-color: #fff;
-}
-
-.scroll{
-  transition: all 0.5s ease-out;
-}
-
-.background2{
-  background-color: royalblue;
 }
