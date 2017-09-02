@@ -3,7 +3,6 @@ body{
   margin: 0;
   width: 100%;
   height: 100%;
-  /*background-color: dodgerblue;*/
 }
 
 h1, p{
@@ -61,9 +60,20 @@ a:hover{
 }
 
 .container{
-  background-color: royalblue;
   height: 100vh;
   width: 100%;
+}
+
+.container-about-me{
+  background-color: royalblue;
+}
+
+.container-projects{
+  background-color: #fff;
+}
+
+.container-experience{
+  background-color: royalblue;
 }
 
 #name{
