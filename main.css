@@ -6,7 +6,7 @@ body{
   /*background-color: dodgerblue;*/
 }
 
-h1, h2, p{
+h1, p{
   color: #fff;
 }
 
@@ -31,7 +31,7 @@ a{
   font-family: serif;
 }
 a:hover{
-  color: mediumaquamarine;
+  color: royalblue;
 }
 
 .menu{
@@ -54,7 +54,7 @@ a:hover{
 }
 
 .about_me{
-  background-color: royalblue;
+  background-color: inherit;
   margin: auto;
   padding-top: 100px;
   width: 85%;
@@ -69,6 +69,11 @@ a:hover{
 #name{
   margin-bottom: 15px;
   font-family: serif;
+}
+
+#projects{
+  margin-bottom: 15px;
+  color: #666;
 }
 
 .arrow{
