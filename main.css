@@ -32,6 +32,25 @@ a:hover{
   color: mediumaquamarine;
 }
 
+.menu{
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
+  color: #fff;
+  color: royalblue;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.menu:hover{
+  cursor: pointer;
+  color: #000;
+  color: #fff;
+  background-color: royalblue;
+  transition: all .5s ease-in-out;
+}
+
 .about_me{
   background-color: royalblue;
   margin: auto;
@@ -57,13 +76,17 @@ a:hover{
   animation-direction: alternate;
   position: absolute;
   left: 50vw;
-  height: 40px;
-  width: 40px;
+  color: royalblue;
+  background-color: #fff;
   border-radius: 50%;
+  transition: all .5s ease-in-out;
 }
 
 .arrow:hover{
   cursor: pointer;
+  color: #fff;
+  background-color: royalblue;
+  transition: all .5s ease-in-out;
 }
 
 @keyframes moving {
