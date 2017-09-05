@@ -48,7 +48,7 @@ a:hover{
   cursor: pointer;
   color: #000;
   color: #fff;
-  background-color: royalblue;
+  background-color: #3B5999;
   transition: all .5s ease-in-out;
 }
 
@@ -65,7 +65,7 @@ a:hover{
 }
 
 .container-about-me{
-  background-color: royalblue;
+  background-color: #3B5999;
 }
 
 .container-projects{
@@ -73,7 +73,7 @@ a:hover{
 }
 
 .container-experience{
-  background-color: royalblue;
+  background-color: #3B5999;
 }
 
 #name{
@@ -93,7 +93,7 @@ a:hover{
   animation-direction: alternate;
   position: absolute;
   left: 50vw;
-  color: royalblue;
+  color: #3B5999;
   background-color: #fff;
   border-radius: 50%;
   transition: all .5s ease-in-out;
@@ -102,7 +102,7 @@ a:hover{
 .arrow:hover{
   cursor: pointer;
   color: #fff;
-  background-color: royalblue;
+  background-color: #3B5999;
   transition: all .5s ease-in-out;
 }
 
