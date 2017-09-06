@@ -29,8 +29,9 @@ a{
   font-size: 20px;
   font-family: serif;
 }
+
 a:hover{
-  color: royalblue;
+  color: #fff;
 }
 
 .menu{
@@ -84,6 +85,10 @@ a:hover{
 #projects{
   margin-bottom: 15px;
   color: #666;
+}
+
+#projects a:hover{
+  color: #3B5999;
 }
 
 .arrow{
