@@ -87,6 +87,10 @@ a:hover{
   color: #3B5999;
 }
 
+#experience{
+  margin-bottom: 15px;
+}
+
 .arrow{
   animation-duration: .35s;
   animation-name: moving;
